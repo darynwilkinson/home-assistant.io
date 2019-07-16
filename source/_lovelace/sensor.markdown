@@ -50,6 +50,11 @@ theme:
   required: false
   description: Set to any theme within `themes.yaml`
   type: string
+refresh_interval:
+  required: false
+  description: Refresh interval in seconds.
+  type: integer
+  default: 0
 {% endconfiguration %}
 
 ## Example
